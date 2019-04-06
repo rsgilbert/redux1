@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
- 
+
 const ExpenseDashboardPage = () => (
     <div>
         this is from the future boyww
@@ -24,7 +24,7 @@ const HelpPage = () => (
 )
 const NotFoundPage = () => (
     <div>
-        404 here
+        404 here <a href="/">Home </a>
     </div>
 
 )
@@ -37,7 +37,7 @@ const routes = (
             <Route path= "/help" component={ HelpPage } />
             <Route component={NotFoundPage}/>
         </Switch>
-       
+
     </BrowserRouter>
 )
 
@@ -45,4 +45,3 @@ const routes = (
 ReactDOM.render((
     routes
 ), document.getElementById('app'))
-
