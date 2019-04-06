@@ -1,0 +1,22 @@
+PS D:\Projects\react\indecision2> ssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\gilbert/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\gilbert/.ssh/id_rsa.
+Your public key has been saved in C:\Users\gilbert/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:IhGMRL8bDPyB+H85tHnh0yb0NfHx5/mbga3IV11uAg gilbert@DESKTOP-S7G29KH
+The key's randomart image is:
++---[RSA 4096]----+
+|+.+.           . |
+| + + .    E   . o|
+|  B o .    . . .o|
+| o X   o    . . .|
+|  + = . S   . o..|
+|   . = o + . + *o|
+|    + . * =   = *|
+|     .   * .   *.|
+|          .   *o |
++----[SHA256]-----+
+PS D:\Projects\react\indecision2>
