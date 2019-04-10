@@ -2,7 +2,7 @@
 
 const path = require('path')
 
-module.exports = { 
+module.exports = {
     entry: "./src/app.js"
     ,output: {
         path: path.join(__dirname, 'public'),
@@ -20,7 +20,7 @@ module.exports = {
     ,devServer: {
         contentBase: path.join(__dirname, "public")
         ,historyApiFallback: true // means will be handling all routing via client side code and should return index for all 404 routes
-        
+
     }
 }
 // historyApiFallback: true // means will be handling all routing via client side code and should return index for all 404 routes
